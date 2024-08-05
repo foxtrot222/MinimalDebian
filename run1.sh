@@ -6,12 +6,7 @@ test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
 test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.bashrc
 brew install zig
-reboot
-sudo git clone https://github.com/fairyglade/ly
-sudo cd ly
-zig build
-zig build run
-zig build installsystemd
-systemctl enable ly.service
+echo "REBOOTING"
+sleep 5
+/sbin/reboot
 
-echo "Installation complete!"
