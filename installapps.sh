@@ -27,6 +27,9 @@ zig build
 zig build installsystemd
 systemctl enable ly.service
 
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 echo "Installation complete!"
 
 
