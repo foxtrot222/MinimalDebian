@@ -17,4 +17,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 sudo git clone https://github.com/m4thewz/dracula-icons /usr/share/icons/dracula-icons
 sudo git clone https://github.com/dracula/gtk /usr/share/themes/
 
+sudo git clone https://github.com/dracula/xfce4-terminal.git
+cd xfce4-terminal
+sudo cp Dracula.theme ~/.local/share/xfce4/terminal/colorschemes
+
+
 
