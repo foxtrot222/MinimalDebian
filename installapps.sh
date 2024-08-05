@@ -2,7 +2,7 @@
 
 apt update
 apt upgrade
-apt install wget curl xorg polybar pavucontrol brightnessctl network-manager pcmanfm i3 connman build-essential libpam0g-dev libxcb-xkb-dev 
+apt install curl xorg polybar pavucontrol brightnessctl network-manager pcmanfm i3 connman build-essential libpam0g-dev libxcb-xkb-dev 
 
 install -d -m 0755 /etc/apt/keyrings
 wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
