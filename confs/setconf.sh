@@ -1,6 +1,4 @@
-sudo git clone https://github.com/dracula/rofi
-mkdir ~/.config/rofi 
-sudo cp rofi/theme/config1.rasi ~/.config/rofi/config.rasi
+sudo cp config.rasi ~/.config/rofi/config.rasi
 
 mkdir mkdir ~/.config/i3status
 sudo cp i3status.conf ~/.config/i3status/i3status.conf
@@ -20,6 +18,8 @@ sudo git clone https://github.com/dracula/gtk /usr/share/themes/
 sudo git clone https://github.com/dracula/xfce4-terminal.git
 cd xfce4-terminal
 sudo cp Dracula.theme ~/.local/share/xfce4/terminal/colorschemes
+
+
 
 
 
