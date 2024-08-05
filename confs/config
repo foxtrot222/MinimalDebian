@@ -213,4 +213,4 @@ bar {
 #######################################################################
 exec i3-config-wizard
 exec_always xrandr --output Virtual-1 --mode 1600x900
-exec_always feh --bg-fill /path/to/wallpaper
+exec_always feh --bg-fill ~/Pictures/debian.png
