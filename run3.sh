@@ -5,6 +5,6 @@ zig build
 zig build run
 zig build installsystemd
 systemctl enable ly.service
-echo "Done"
+echo "Installation Complete"
 startx
 
