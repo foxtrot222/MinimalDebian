@@ -4,6 +4,10 @@ sudo cp colors.rasi ~/.config/rofi/colors.rasi
 sudo cp fonts.rasi ~/.config/rofi/fonts.rasi
 
 
+xbindkeys --defaults > ~/.xbindkeysrc
+cp .xinitrc ~/.xinitrc
+cp .xbindkeysrc ~/.xbindkeysrc
+
 mkdir ~/.config/i3status
 sudo cp i3status.conf ~/.config/i3status/config
 sudo chown $USER:$USER ~/.config/i3status/config
@@ -24,9 +28,5 @@ sudo git clone https://github.com/dracula/xfce4-terminal.git
 cd xfce4-terminal
 sudo cp Dracula.theme /usr/share/xfce4/terminal/colorschemes/
 
-
-xbindkeys --defaults > ~/.xbindkeysrc
-cp .xinitrc ~/.xinitrc
-cp .xbindkeys.rc ~/.xbindkeys
 
 
