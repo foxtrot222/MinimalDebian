@@ -233,3 +233,5 @@ exec_always feh --bg-scale ~/Pictures/debian.png
 #
 # Please remove the following exec line:
 #######################################################################
+
+exec xautolock -detectsleep -time 5 -locker "/usr/local/bin/lock_blur.sh" \
