@@ -1,7 +1,7 @@
 sudo apt install calibre keepassxc
 wget https://ftp.halifax.rwth-aachen.de/blender/release/Blender4.2/blender-4.2.0-linux-x64.tar.xz
 tar -xf blender-4.2.0-linux-x64.tar.xz
-sudo mv blender-4.2.0-linux-x64.tar.xz /opt/blender
+sudo mv blender-4.2.0-linux-x64 /opt/blender
 sudo ln -s /opt/blender/blender /usr/local/bin/blender
 sudo bash -c 'cat > /usr/share/applications/blender.desktop << EOF
 [Desktop Entry]
