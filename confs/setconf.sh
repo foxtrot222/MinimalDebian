@@ -19,7 +19,7 @@ sudo git clone https://github.com/dracula/gtk /usr/share/themes/gtk
 
 sudo git clone https://github.com/dracula/xfce4-terminal.git
 cd xfce4-terminal
-sudo cp Dracula.theme /usr/share/xfce4/terminal/colorschemes
+sudo cp Dracula.theme /usr/share/xfce4/terminal/colorschemes/
 
 
 
