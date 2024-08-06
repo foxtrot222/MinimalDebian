@@ -2,5 +2,5 @@
 echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.bashrc
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew install zig
-echo "REBOOT THE SYSTEM and run3.sh"
+echo "REBOOT THE SYSTEM and run run3.sh"
 
