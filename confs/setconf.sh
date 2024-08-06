@@ -2,7 +2,8 @@ mkdir ~/.config/rofi
 sudo cp config.rasi ~/.config/rofi/config.rasi
 sudo cp colors.rasi ~/.config/rofi/colors.rasi
 sudo cp fonts.rasi ~/.config/rofi/fonts.rasi
-
+sudo cp lock.png ~/Pictures/
+sudo cp lock_blur.sh /usr/local/bin/
 
 xbindkeys --defaults > ~/.xbindkeysrc
 cp .xinitrc ~/.xinitrc
@@ -27,6 +28,8 @@ sudo git clone https://github.com/dracula/gtk /usr/share/themes/gtk
 sudo git clone https://github.com/dracula/xfce4-terminal.git
 cd xfce4-terminal
 sudo cp Dracula.theme /usr/share/xfce4/terminal/colorschemes/
+
+
 
 
 
