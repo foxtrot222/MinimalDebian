@@ -3,4 +3,4 @@ sudo apt upgrade
 apt install curl xorg i3 build-essential libpam0g-dev libxcb-xkb-dev pcmanfm network-manager brightnessctl pavucontrol blueman scrot feh lxappearance xfce4-terminal
 sudo apt remove xterm
 sudo apt autoremove
-echo "Apt packages installed, now run run2.sh without root."
+echo "Apt packages installed, REBOOT THE SYSTEM and run run2.sh without root."
