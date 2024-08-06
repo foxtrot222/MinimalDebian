@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # set the icon and a temporary location for the screenshot to be stored
-icon="$HOME/images/lock-icon-light.png"
+icon="$HOME/Pictures/lock.png"
 tmpbg='/tmp/screen.png'
 
 # take a screenshot
