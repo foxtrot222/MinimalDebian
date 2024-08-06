@@ -4,6 +4,7 @@ zig build
 zig build run
 zig build installsystemd
 systemctl enable ly.service
-echo "Installation Complete"
-startx
+echo "Installation Complete. REBOOTING IN 60s."
+sleep 60
+/sbin/reboot
 
