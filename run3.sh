@@ -6,5 +6,5 @@ zig build run
 zig build installsystemd
 systemctl enable ly.service
 echo "Done"
-exit
+startx
 
