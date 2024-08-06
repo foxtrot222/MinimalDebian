@@ -15,7 +15,7 @@ cp debian.png ~/Pictures/
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-cp .vimrc ~/
+cp .vimrc ~/.vimrc
 
 sudo git clone https://github.com/m4thewz/dracula-icons /usr/share/icons/dracula-icons
 sudo git clone https://github.com/dracula/gtk /usr/share/themes/gtk
@@ -25,6 +25,8 @@ cd xfce4-terminal
 sudo cp Dracula.theme /usr/share/xfce4/terminal/colorschemes/
 
 
-
+xbindkeys --defaults > ~/.xbindkeysrc
+cp .xinitrc ~/.xinitrc
+cp .xbindkeys.rc ~/.xbindkeys
 
 
