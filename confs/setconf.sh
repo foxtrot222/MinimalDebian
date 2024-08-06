@@ -4,6 +4,7 @@ sudo cp colors.rasi ~/.config/rofi/colors.rasi
 sudo cp fonts.rasi ~/.config/rofi/fonts.rasi
 sudo cp lock.png ~/Pictures/
 sudo cp lock_blur.sh /usr/local/bin/
+sudo chmod +x /usr/local/bin/lock_blur.sh
 
 xbindkeys --defaults > ~/.xbindkeysrc
 cp .xinitrc ~/.xinitrc
