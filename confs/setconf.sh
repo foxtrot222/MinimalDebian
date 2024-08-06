@@ -1,5 +1,8 @@
 mkdir ~/.config/rofi
 sudo cp config.rasi ~/.config/rofi/config.rasi
+sudo cp colors.rasi ~/.config/rofi/colors.rasi
+sudo cp fonts.rasi ~/.config/rofi/fonts.rasi
+
 
 mkdir ~/.config/i3status
 sudo cp i3status.conf ~/.config/i3status/config
