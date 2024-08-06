@@ -1,4 +1,3 @@
-su
 git clone https://github.com/fairyglade/ly
 cd ly
 zig build
