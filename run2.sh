@@ -3,5 +3,5 @@ test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
 test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.bashrc
 brew install zig
-echo "REBOOT THE SYSTEM and run run3.sh"
+echo "REBOOT THE SYSTEM and run run3.sh as root"
 
