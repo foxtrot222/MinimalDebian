@@ -1,5 +1,6 @@
 sudo apt update
 sudo apt upgrade
-apt install curl xorg i3 build-essential libpam0g-dev libxcb-xkb-dev pcmanfm network-manager brightnessctl pavucontrol blueman scrot feh lxappearance xfce4-terminal rofi xbindkeys imagemagick gthumb vlc htop vim neofetch alsa-utils xarchiver flatpak
+sudo apt install curl xorg i3 build-essential libpam0g-dev libxcb-xkb-dev pcmanfm network-manager brightnessctl pavucontrol blueman scrot feh lxappearance xfce4-terminal rofi xbindkeys imagemagick gthumb vlc htop vim neofetch alsa-utils xarchiver flatpak
 sudo apt autoremove
-echo "Apt packages installed, REBOOT THE SYSTEM and run run2.sh without root."
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+echo "Apt packages installed and flatpak added, REBOOT THE SYSTEM and run run2.sh without root."
